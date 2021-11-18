@@ -6,25 +6,39 @@ body {
 }
 
 nav {
-    background-color: crimson;
+    background-color: #25cd70;
     display: flex;
     justify-content: space-around;
+    font-size: 30px;
 }
 
-ul {
+.tabs {
     display: flex;
 }
 
-ul li {
+.tabs  li {
     margin-left: -1px;
-    border: 1px black solid;
-    padding: 0 10px 0 10px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding: 10px;
+    position: relative;
 }
+
+
+.dropdown {
+    display: none; 
+}
+
+.tabs li:hover .dropdown{
+    display: block;
+}
+
 
 .logo {
     margin-left: -1px;
-    border: 1px black solid;
-    padding: 0 10px 0 10px;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    padding: 10px;
 }
 
 a {
@@ -33,6 +47,6 @@ a {
 }
 
 a :hover {
-    background-color: rgb(129, 4, 29);
+    background-color:gold;
 }
 
