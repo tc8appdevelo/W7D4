@@ -3,11 +3,36 @@
 body {
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
-ul {
+nav {
     background-color: crimson;
     display: flex;
     justify-content: space-around;
 }
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin-left: -1px;
+    border: 1px black solid;
+    padding: 0 10px 0 10px;
+}
+
+.logo {
+    margin-left: -1px;
+    border: 1px black solid;
+    padding: 0 10px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    background-color: rgb(129, 4, 29);
+}
+
