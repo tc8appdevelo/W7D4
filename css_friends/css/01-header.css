@@ -26,11 +26,21 @@ nav {
 
 
 .dropdown {
-    display: none; 
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    
+}
+
+.dropdown li {
+    border: black 1px solid;
+    margin-bottom: -1px;
 }
 
 .tabs li:hover .dropdown{
     display: block;
+    background-color: white;
 }
 
 
@@ -44,9 +54,18 @@ nav {
 a {
     text-decoration: none;
     color: inherit;
+
 }
 
 a :hover {
     background-color:gold;
+}
+/* 
+ul.dropdown {
+    background-color: white;
+} */
+
+ul.dropdown :hover {
+    background-color: darkgray;
 }
 
